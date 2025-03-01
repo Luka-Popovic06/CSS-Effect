@@ -5,9 +5,17 @@
 body {
   background-color: #a5b1c2;
 }
-.container {
+.container-1 {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 50vh;
+}
+img {
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+  border: #a5b1c2 5px ridge;
+  margin: 5px;
+  object-fit: cover;
 }
