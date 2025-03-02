@@ -38,3 +38,10 @@ img {
   animation: gallry 20s linear infinite;
   cursor: pointer;
 }
+.container-2 span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transform: rotateY(calc(var(--i) * 45deg)) translateZ(500px);
+}
