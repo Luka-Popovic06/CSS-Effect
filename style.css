@@ -29,3 +29,12 @@ img {
 .card:hover {
   transform: scale(1.1);
 }
+.container-2 {
+  width: 200px;
+  height: 350px;
+  position: relative;
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  animation: gallry 20s linear infinite;
+  cursor: pointer;
+}
