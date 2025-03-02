@@ -45,3 +45,16 @@ img {
   transform-style: preserve-3d;
   transform: rotateY(calc(var(--i) * 45deg)) translateZ(500px);
 }
+.container-2 span img {
+  position: absolute;
+  border-radius: 10px;
+  border: 6px ridge #ccc;
+}
+@keyframes gallery {
+  0% {
+    transform: perspective(1000px) rotateY(0deg);
+  }
+  100% {
+    transform: perspective(1000px) rotateY(360deg);
+  }
+}
